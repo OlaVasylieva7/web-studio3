@@ -51,19 +51,29 @@ a:focus {
   padding-right: 15px;
 }
 
-section {
-  padding-bottom: 94px;
-  /* padding-top: 94px; */
+.curent {
+  color: #2196F3;
 }
 
-/*section header */
-/* 
-.header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-} */
+.curent::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background: #2196F3;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  
+
+}
+section {
+  padding-bottom: 94px;
+}
+
+
+/* header */
 
 .header .container {
   display: flex;
@@ -80,6 +90,11 @@ section {
 .nav-list-item {
   color: #212121;
   font-weight: 500;
+}
+
+.nav-list-link {
+  position: relative;
+  padding-bottom: 28px;
 }
 
 .nav-list-item:not(:last-child) {
@@ -131,7 +146,8 @@ section {
   margin-right: 10px;
 }
 
-/* section hero */
+
+/* hero */
 
 .hero-section {
   max-width: 1600px;
@@ -197,7 +213,8 @@ section {
   background-color: #188ce8;
 }
 
-/* section advantages */
+
+/* advantages */
 
 .advantages-list {
   display: flex;
@@ -238,7 +255,8 @@ section {
   color: #757575;
 }
 
-/* section task */
+
+/* works */
 
 .task-title {
   font-weight: 700;
@@ -278,7 +296,8 @@ section {
   align-items: center;
 }
 
-/* section our team */
+
+/* our team */
 
 .team-section {
   padding-top: 94px;
@@ -380,7 +399,8 @@ section {
   fill: #ffffff;
 }
 
-/* section customers */
+
+/* customers */
 
 .customers-section {
   padding-top: 94px;
@@ -454,6 +474,7 @@ section {
   color: #ffffff;
   margin-bottom: 20px;
 }
+
 .footer-form {
   display: flex;
   align-items: center;
@@ -524,7 +545,6 @@ letter-spacing: 0.03em;
 .footer-link {
   background-color: rgba(255, 255, 255, 0.1);;
 }
-
 
 .footer-contacts-item:first-child {
   margin-top: 20px;
