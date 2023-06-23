@@ -116,6 +116,13 @@ section {
   .list-contact-item {
     display: none;
   }
+  .header-menu {
+    display: block;
+    position: fixed;
+    text-align: center;
+    right: 10px;
+    top: 10px;
+  }
 }
 .nav-list-item {
   color: #212121;
@@ -161,4 +168,21 @@ section {
 
 .header-icon {
   margin-right: 10px;
+}
+
+.header-icon {
+  margin-right: 10px;
+}
+
+.hero-section {
+  max-width: 480px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

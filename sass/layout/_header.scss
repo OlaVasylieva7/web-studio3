@@ -28,8 +28,17 @@
     display: none;
   }
 
+  // .list-contact
   .list-contact-item {
     display: none;
+  }
+
+  .header-menu {
+    display: block;
+    position: fixed;
+    text-align: center;
+    right: 10px;
+    top: 10px;
   }
 }
 
@@ -73,6 +82,10 @@
 .list-contact-item:hover {
   color: #2196f3;
   fill: #2196f3;
+}
+
+.header-icon {
+  margin-right: 10px;
 }
 
 .header-icon {
