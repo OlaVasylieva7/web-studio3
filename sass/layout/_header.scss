@@ -24,19 +24,14 @@
 }
 
 @media screen and (max-width: 767px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 
-    .list-contact {
-        display: none;
-    }
+  .list-contact-item {
+    display: none;
+  }
 }
-
-// .nav-list {
-//   display: flex;
-//   margin-right: 315px;
-// }
 
 .nav-list-item {
   color: #212121;
@@ -83,3 +78,8 @@
 .header-icon {
   margin-right: 10px;
 }
+
+// .nav-list {
+//   display: flex;
+//   margin-right: 315px;
+// }
