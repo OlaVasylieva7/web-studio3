@@ -124,56 +124,6 @@ section {
     top: 10px;
   }
 }
-.nav-list-item {
-  color: #212121;
-  font-weight: 500;
-}
-
-.nav-list-link {
-  position: relative;
-  padding-bottom: 28px;
-}
-
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-list-item:hover {
-  color: #2196f3;
-}
-
-.list-contact {
-  display: flex;
-  align-items: center;
-}
-
-.list-contact-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.list-contact-item {
-  color: #757575;
-  fill: #757575;
-}
-
-.list-contact-item a {
-  display: flex;
-  align-items: center;
-}
-
-.list-contact-item:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
-.header-icon {
-  margin-right: 10px;
-}
-
-.header-icon {
-  margin-right: 10px;
-}
-
 .hero-section {
   max-width: 480px;
   height: 400px;
@@ -230,4 +180,39 @@ section {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-icon {
+  margin-top: 25px;
+  margin-left: 192px;
+}
+
+.advantages-box {
+  width: 450px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.advantages-title {
+  color: #212121;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }/*# sourceMappingURL=main.css.map */
