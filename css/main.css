@@ -210,9 +210,8 @@ section {
 }
 
 .advantages-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
   color: #757575;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
