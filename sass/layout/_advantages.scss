@@ -4,12 +4,12 @@
 }
 
 .advantages-icon {
-  margin-top: 25px;
-  margin-left: 192px;
+  margin: 25px auto;
 }
 
 .advantages-box {
-  width: 450px;
+  display: flex;
+  width: 100%;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;

@@ -75,21 +75,6 @@ section {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
 
 .header {
   padding-top: 16px;
@@ -130,7 +115,7 @@ section {
   }
 }
 .hero-section {
-  max-width: 480px;
+  width: 100%;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -193,12 +178,12 @@ section {
 }
 
 .advantages-icon {
-  margin-top: 25px;
-  margin-left: 192px;
+  margin: 25px auto;
 }
 
 .advantages-box {
-  width: 450px;
+  display: flex;
+  width: 100%;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
