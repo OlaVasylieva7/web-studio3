@@ -100,9 +100,9 @@
     // margin-bottom: 5px;
   }
 
-  // .list-contact-item:not(:last-child){
-  //   margin-bottom: 10px;
-  // }
+  .list-contact-item:not(:last-child){
+    margin-bottom: 5px;
+  }
 
   .list-contact-item a {
     display: flex;
