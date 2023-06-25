@@ -114,6 +114,67 @@ section {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 767px) {
+  .header .container {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .header-menu {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    margin-left: 88px;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+  .nav-list-item {
+    color: #212121;
+    font-weight: 500;
+  }
+  .nav-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .nav-list-item:hover {
+    color: #2196f3;
+  }
+  .nav-list-link {
+    position: relative;
+    padding-bottom: 28px;
+  }
+  .list-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 32px;
+  }
+  .list-contact-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .list-contact-item {
+    color: #757575;
+    fill: #757575;
+  }
+  .list-contact-item a {
+    display: flex;
+    align-items: center;
+  }
+  .list-contact-item:hover {
+    color: #2196f3;
+    fill: #2196f3;
+  }
+  .header-icon {
+    margin-right: 10px;
+  }
+  .header-icon {
+    margin-right: 10px;
+  }
+}
 .hero-section {
   width: 100%;
   height: 400px;
