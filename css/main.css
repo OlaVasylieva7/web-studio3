@@ -88,37 +88,42 @@ section {
   color: #2196F3;
 }
 
-@media screen and (max-width: 767px) {
-  .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #ececec;
-    display: flex;
-  }
-  nav {
-    display: none;
-  }
-  .list-contact {
-    display: none;
-  }
-  .header-menu {
-    display: flex;
-    position: relative;
-    margin-left: auto;
-  }
-  .header .container {
-    display: flex;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+.header {
+  height: 60px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
 }
+
+.nav-list {
+  display: none;
+}
+
+.list-contact {
+  display: none;
+}
+
+.header-menu {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 767px) {
   .header .container {
     display: flex;
     align-items: center;
     margin-top: 32px;
     margin-bottom: 20px;
+  }
+  .header {
+    height: 80px;
   }
   .header-menu {
     display: none;
@@ -142,15 +147,14 @@ section {
   }
   .nav-list-link {
     position: relative;
-    padding-bottom: 28px;
+    padding-bottom: 27px;
   }
   .list-contact {
     display: flex;
     flex-direction: column;
-    position: absolute;
     padding-top: 21px;
     padding-bottom: 21px;
-    right: 0;
+    margin-left: auto;
   }
   .list-contact-item:not(:last-child) {
     margin-right: 30px;
@@ -161,9 +165,6 @@ section {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.24px;
-  }
-  .list-contact-item:not(:last-child) {
-    margin-bottom: 5px;
   }
   .list-contact-item a {
     display: flex;
@@ -176,9 +177,6 @@ section {
   .header-icon {
     margin-right: 10px;
   }
-  .header-icon {
-    margin-right: 10px;
-  }
 }
 @media screen and (min-width: 1600px) {
   .header .container {
@@ -186,6 +184,7 @@ section {
     align-items: center;
     margin-top: 32px;
     margin-bottom: 25px;
+    max-width: 1400px;
   }
   .nav-list-link {
     position: relative;
@@ -200,6 +199,7 @@ section {
   .list-contact {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   .list-contact-item:not(:last-child) {
     margin-right: 30px;
@@ -215,9 +215,6 @@ section {
   .list-contact-item:hover {
     color: #2196f3;
     fill: #2196f3;
-  }
-  .header-icon {
-    margin-right: 10px;
   }
   .header-icon {
     margin-right: 10px;
@@ -308,7 +305,7 @@ section {
     justify-content: center;
   }
   .hero-title {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 26px;
     font-weight: 900;
@@ -322,13 +319,64 @@ section {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
     padding: 10px 24px;
+    cursor: pointer;
+  }
+  .hero-button:hover,
+  .hero-button:focus {
+    background-color: #188ce8;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero-section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
+  }
+  .hero-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .hero-button {
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    padding: 10px 30px;
     cursor: pointer;
   }
   .hero-button:hover,
