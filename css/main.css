@@ -148,8 +148,9 @@ section {
     display: flex;
     flex-direction: column;
     position: absolute;
+    padding-top: 21px;
+    padding-bottom: 21px;
     right: 0;
-    margin-bottom: 0;
   }
   .list-contact-item:not(:last-child) {
     margin-right: 30px;
@@ -160,7 +161,9 @@ section {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.24px;
-    margin-bottom: 10px;
+  }
+  .list-contact-item:not(:last-child) {
+    margin-bottom: 5px;
   }
   .list-contact-item a {
     display: flex;
@@ -322,9 +325,11 @@ section {
 
 @media screen and (min-width: 768px) {
   .advantages-list {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: left;
-    text-align: left;
+    gap: 30px;
   }
   .advantages-icon {
     margin-top: 25px;
@@ -337,6 +342,10 @@ section {
     border-radius: 4px;
     margin-bottom: 30px;
   }
+  .advantages-list-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .advantages-title {
     display: flex;
     font-weight: 700;
@@ -348,10 +357,12 @@ section {
     margin-bottom: 10px;
   }
   .advantages-text {
+    width: 354px;
     color: #757575;
     font-size: 14px;
     font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.42px;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
