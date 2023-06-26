@@ -31,13 +31,11 @@
   color: #757575;
   line-height: 24px;
   letter-spacing: 0.42px;
-
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .advantages-list {
-    // display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
@@ -86,55 +84,45 @@
   }
 }
 
+@media screen and (min-width:1600px) {
+  .advantages-list {
+    display: flex;
+  }
+
+  .advantages-icon {
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+
+  .advantages-box {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+
+  .advantages-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+
+  .advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
 
 
-// .advantages-list-item {
-// flex-basis: calc(100% - 30px)*4;
-// width: 270px;
-// height: 184px;
-// }
-
-// .advantages-list-item:not(:last-child) {
-//   margin-right: 30px;
-// }
-
-// desktop
-
-// .advantages-list {
-//     display: flex;
-//   }
-
-//   .advantages-icon {
-//     margin-top: 25px;
-//     margin-left: 100px;
-//   }
-
-//   .advantages-box {
-//     width: 270px;
-//     height: 120px;
-//     background: #f5f4fa;
-//     border-radius: 4px;
-//     margin-bottom: 30px;
-//   }
-
-//   .advantages-list-item:not(:last-child) {
-//     margin-right: 30px;
-//   }
-
-//   .advantages-title {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 16px;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     color: #212121;
-//     margin-bottom: 10px;
-//   }
-
-//   .advantages-text {
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 24px;
-//     letter-spacing: 0.03em;
-//     color: #757575;
-//   }
