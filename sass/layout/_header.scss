@@ -26,23 +26,19 @@
   display: none;
 }
 
-.header-menu {
-  display: flex;
-  position: relative;
-  margin-left: auto;
+.menu-button {
+  border: none;
+  background-color: transparent;
 }
 
 .header .container {
   display: flex;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  justify-content: space-between;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .header .container {
-    display: flex;
-    align-items: center;
     margin-top: 32px;
     margin-bottom: 20px;
   }
@@ -51,7 +47,7 @@
     height: 80px;
   }
 
-  .header-menu {
+  .menu-button {
     display: none;
   }
 
@@ -116,7 +112,7 @@
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header .container {
     display: flex;
     align-items: center;
