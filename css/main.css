@@ -464,6 +464,7 @@ section {
 @media screen and (min-width: 1600px) {
   .advantages-list {
     display: flex;
+    flex-wrap: nowrap;
   }
   .advantages-icon {
     margin-top: 25px;
