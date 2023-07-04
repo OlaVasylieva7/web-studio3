@@ -104,9 +104,9 @@ section {
 }
 
 .header {
-  height: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
-  display: flex;
 }
 
 .nav-list {
@@ -129,13 +129,6 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  .header .container {
-    margin-top: 32px;
-    margin-bottom: 20px;
-  }
-  .header {
-    height: 80px;
-  }
   .menu-button {
     display: none;
   }
@@ -144,7 +137,7 @@ section {
     margin-left: 88px;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
+    margin-right: 96px;
   }
   .nav-list-item {
     color: #212121;
@@ -163,9 +156,6 @@ section {
   .list-contact {
     display: flex;
     flex-direction: column;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    margin-left: auto;
   }
   .list-contact-item:not(:last-child) {
     margin-right: 30px;
