@@ -71,7 +71,11 @@
   }
 
   .mobile-list-social-media {
-
+    display: flex;
+    margin-top: 64px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .mobile-menu-social {
