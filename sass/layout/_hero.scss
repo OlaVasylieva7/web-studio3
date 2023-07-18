@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
 
+  background-color: #2f303a;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +16,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/img/hero/mobile.jpg);
+    url(/img/hero/hero-mobile.jpg);
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -29,11 +30,23 @@
   justify-content: center;
 }
 
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px), {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/img/hero/Header\ img@2x.jpg);
+  }
+}
+
 .hero-title {
   color: #fff;
   text-align: center;
   font-size: 26px;
-  font-family: Roboto;
   font-weight: 900;
   line-height: 42px;
   letter-spacing: 1.56px;
@@ -165,7 +178,7 @@
   }
 
   .hero-title {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 44px;
     font-family: Roboto;
