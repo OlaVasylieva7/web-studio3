@@ -20,6 +20,10 @@ body {
   height: 4px;
 }
 
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -38,10 +42,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-header {
-  border-bottom: 1px solid #ECECEC;
 }
 
 img {
@@ -65,10 +65,17 @@ a:focus {
   color: #2196f3;
 }
 
-section {
-  padding-bottom: 94px;
+.section {
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -249,6 +256,11 @@ section {
   justify-content: center;
 }
 
+@media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero-section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-mobile@2x.jpg);
+  }
+}
 .hero-title {
   color: #fff;
   text-align: center;

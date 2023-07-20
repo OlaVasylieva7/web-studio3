@@ -24,9 +24,17 @@
         >
         <nav>
           <ul class="nav-list">
-            <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Студія</a></li>
-            <li class="nav-list-item"><a class="nav-list-link curent" href="./portfolio.html">Портфоліо</a></li>
-            <li class="nav-list-item"><a class="nav-list-link " href="/">Контакти</a></li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html">Студія</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link curent" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="/">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="list-contact">
@@ -52,36 +60,25 @@
 
     <!-- main -->
     <main>
-
       <!-- buttons -->
 
       <div class="container">
         <section class="buttons-section">
           <ul class="buttons-list">
             <li class="buttons-items">
-              <button type="button" class="buttons-name">
-                Усі
-              </button>
+              <button type="button" class="buttons-name">Усі</button>
             </li>
             <li class="buttons-items">
-              <button type="button" class="buttons-name">
-                Веб-сайти
-              </button>
+              <button type="button" class="buttons-name">Веб-сайти</button>
             </li>
             <li class="buttons-items">
-              <button type="button" class="buttons-name">
-                Додатки
-              </button>
+              <button type="button" class="buttons-name">Додатки</button>
             </li>
             <li class="buttons-items">
-              <button type="button" class="buttons-name">
-                Дизайн
-              </button>
+              <button type="button" class="buttons-name">Дизайн</button>
             </li>
             <li class="buttons-items">
-              <button type="button" class="buttons-name">
-                Маркетинг
-              </button>
+              <button type="button" class="buttons-name">Маркетинг</button>
             </li>
           </ul>
 
@@ -90,34 +87,58 @@
           <ul class="details-cards">
             <li class="details-card">
               <div class="card-header">
-                <img class="card-header-img" src="./img/button-cards/laptop.jpg" alt="laptop">
+                <img
+                  srcset="
+                    ./img/button-cards/laptop.jpg    1x,
+                    ./img/button-cards/laptop@2x.jpg 2x
+                  "
+                  class="card-header-img"
+                  src="./img/button-cards/laptop.jpg"
+                  alt="laptop"
+                />
                 <p class="card-header-text">
-                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
               <div class="card-footer">
-                <p class="card-footer-title">
-                  Технокряк
-                </p>
-                <p class="card-footer-subtitle">
-                  Веб-сайт
-                </p>
+                <p class="card-footer-title">Технокряк</p>
+                <p class="card-footer-subtitle">Веб-сайт</p>
               </div>
             </li>
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/basketball.jpg" alt="basketball" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/basketball.jpg    1x,
+                    ./img/button-cards/basketball@2x.jpg 2x
+                  "
+                  src="./img/button-cards/basketball.jpg"
+                  alt="basketball"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
-                <p class="card-footer-title">Постер New Orlean vs Golden Star</p>
+                <p class="card-footer-title">
+                  Постер New Orlean vs Golden Star
+                </p>
                 <p class="card-footer-subtitle">Дизайн</p>
               </div>
             </div>
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/seafood.jpg" alt="seafood" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/seafood.jpg    1x,
+                    ./img/button-cards/seafood@2x.jpg 2x
+                  "
+                  src="./img/button-cards/seafood.jpg"
+                  alt="seafood"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Ресторан Seafood</p>
@@ -127,7 +148,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/headphones.jpg" alt="headphones" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/headphones.jpg    1x,
+                    ./img/button-cards/headphones@2x.jpg 2x
+                  "
+                  src="./img/button-cards/headphones.jpg"
+                  alt="headphones"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Проєкт Prime</p>
@@ -137,7 +166,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/boxes.jpg" alt="boxes" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/boxes.jpg    1x,
+                    ./img/button-cards/boxes@2x.jpg 2x
+                  "
+                  src="./img/button-cards/boxes.jpg"
+                  alt="boxes"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Проєкт Boxes</p>
@@ -147,7 +184,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/computer.jpg" alt="computer" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/computer.jpg   1x,
+                    ./img/button-cards/computer@2x.jpg 2x
+                  "
+                  src="./img/button-cards/computer.jpg"
+                  alt="computer"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Inspiration has no Borders</p>
@@ -157,7 +202,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/book.jpg" alt="book" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/book.jpg    1x,
+                    ./img/button-cards/book@2x.jpg 2x
+                  "
+                  src="./img/button-cards/book.jpg"
+                  alt="book"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Видання Limited Edition</p>
@@ -167,7 +220,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/lab.jpg" alt="lab" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/lab.jpg    1x,
+                    ./img/button-cards/lab@2x.jpg 2x
+                  "
+                  src="./img/button-cards/lab.jpg"
+                  alt="lab"
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Проєкт LAB</p>
@@ -177,7 +238,15 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img src="./img/button-cards/business.jpg" alt="" class="card-header-img">
+                <img
+                  srcset="
+                    ./img/button-cards/business.jpg    1x,
+                    ./img/button-cards/business@2x.jpg 2x
+                  "
+                  src="./img/button-cards/business.jpg"
+                  alt=""
+                  class="card-header-img"
+                />
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Growing Business</p>
@@ -189,105 +258,106 @@
       </div>
     </main>
 
-        <!-- footer -->
-        <footer class="footer">
-          <div class="container footer-thumb">
-            <div class="footer-contacts">
-              <a class="logo" href="./index.html"
-                ><span class="web">Web</span><span class="studio">Studio</span> </a
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer-thumb">
+        <div class="footer-contacts">
+          <a class="logo" href="./index.html"
+            ><span class="web">Web</span><span class="studio">Studio</span>
+          </a>
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://goo.gl/maps/GYGaUjMPJ3X5ABux5"
+                >м. Київ, пр-т Лесі Українки, 26</a
               >
-              <ul class="footer-contacts-list">
-                <li class="footer-contacts-item">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://goo.gl/maps/GYGaUjMPJ3X5ABux5"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <li class="footer-contacts-item">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="footer-contacts-item">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="tel:+380961111111"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="footer-social">
-              <h4 class="footer-title">ПРИЄДНУЙТЕСЬ</h4>
-              <ul class="footer-social-list">
-                <li class="social-list-item">
-                  <a
-                    class="social-icon-link footer-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/"
-                  >
-                    <svg class="team-list-icon" width="20" height="20">
-                      <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-list-item">
-                  <a
-                    class="social-icon-link footer-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://twitter.com/?lang=uk"
-                  >
-                    <svg class="team-list-icon" width="20" height="20">
-                      <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-list-item">
-                  <a
-                    class="social-icon-link footer-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://uk-ua.facebook.com/"
-                  >
-                    <svg class="team-list-icon" width="20" height="20">
-                      <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-list-item">
-                  <a
-                    class="social-icon-link footer-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/"
-                  >
-                    <svg class="team-list-icon" width="20" height="20">
-                      <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-submit">
-              <h4 class="footer-title">Підпишіться на розсилку</h4>
-              <form class="footer-form">
-                <input class="footer-input" type="email" placeholder="E-mail"/>
-                <button class="footer-submit-button" type="submit">Підписатися
-                  <svg class="footer-submit-icon" width="24" height="24">
-                    <use href="./img/icons/symbol-defs.svg#icon-send"></use>
-                  </svg>
-                </button>
-              </form>
-            </div>
-          </div>
-        </footer>
+            </li>
+            <li class="footer-contacts-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-contacts-item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4 class="footer-title">ПРИЄДНУЙТЕСЬ</h4>
+          <ul class="footer-social-list">
+            <li class="social-list-item">
+              <a
+                class="social-icon-link footer-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/"
+              >
+                <svg class="team-list-icon" width="20" height="20">
+                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                class="social-icon-link footer-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/?lang=uk"
+              >
+                <svg class="team-list-icon" width="20" height="20">
+                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                class="social-icon-link footer-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://uk-ua.facebook.com/"
+              >
+                <svg class="team-list-icon" width="20" height="20">
+                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                class="social-icon-link footer-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/"
+              >
+                <svg class="team-list-icon" width="20" height="20">
+                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-submit">
+          <h4 class="footer-title">Підпишіться на розсилку</h4>
+          <form class="footer-form">
+            <input class="footer-input" type="email" placeholder="E-mail" />
+            <button class="footer-submit-button" type="submit">
+              Підписатися
+              <svg class="footer-submit-icon" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
