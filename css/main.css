@@ -725,7 +725,7 @@ a:focus {
   .mobile-menu__close-btn:hover {
     fill: #2196F3;
   }
-  .mobile-menu-list {
+  .mobile-menu-contacts {
     height: 100%;
     width: 100%;
     display: flex;
@@ -751,7 +751,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 0.68px;
     margin-top: auto;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+    margin-top: 234px;
   }
   .mobile-menu-mail {
     color: #757575;
