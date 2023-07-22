@@ -357,9 +357,6 @@ a:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    margin-bottom: 94px;
   }
   .hero-section .container {
     display: flex;

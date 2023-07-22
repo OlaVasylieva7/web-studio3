@@ -149,7 +149,6 @@
 @media screen and (min-width: 1200px) {
   .hero-section {
     height: 600px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,9 +164,6 @@
     background-position: center;
     background-size: cover;
 
-    padding-top: 94px;
-    padding-bottom: 94px;
-    margin-bottom: 94px;
   }
 
   .hero-section .container {
