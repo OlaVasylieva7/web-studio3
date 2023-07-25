@@ -163,12 +163,6 @@ a:focus {
   .mobile-menu__close-btn:hover {
     fill: #2196F3;
   }
-  .mobile-menu-contacts {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
   .mobile-menu-item {
     color: #212121;
     font-size: 40px;
@@ -182,6 +176,9 @@ a:focus {
   .mobile-menu-item:hover {
     color: #2196F3;
     cursor: pointer;
+  }
+  .menu {
+    display: block;
   }
   .mobile-menu-phone {
     color: #2196f3;
@@ -727,6 +724,11 @@ a:focus {
     background-color: #188ce8;
   }
 }
+@media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero-section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-mobile@2x.jpg);
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero-section {
     height: 600px;
@@ -774,5 +776,10 @@ a:focus {
   .hero-button:hover,
   .hero-button:focus {
     background-color: #188ce8;
+  }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero-section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-desktop@2x.jpg);
   }
 }/*# sourceMappingURL=main.css.map */

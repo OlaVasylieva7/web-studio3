@@ -80,6 +80,8 @@
   background-color: #188ce8;
 }
 
+// tablet
+
 @media screen and (min-width: 767px) {
   .hero-section {
     max-width: 100%;
@@ -146,6 +148,20 @@
   }
 }
 
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/img/hero/hero-mobile@2x.jpg);
+  }
+}
+// desktop
+
 @media screen and (min-width: 1200px) {
   .hero-section {
     height: 600px;
@@ -163,7 +179,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
   }
 
   .hero-section .container {
@@ -206,5 +221,18 @@
   .hero-button:hover,
   .hero-button:focus {
     background-color: #188ce8;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  (min-resolution: 192dpi) and (min-width: 1200px),
+  (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/img/hero/hero-desktop@2x.jpg);
   }
 }
