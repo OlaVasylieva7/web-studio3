@@ -371,23 +371,22 @@ a:focus {
     height: 581px;
   }
 }
-.advantages-icon {
-  margin: 25px auto;
-}
-
 .advantages-box {
   display: flex;
-  width: 100%;
-  height: 120px;
+  align-items: center;
+  justify-content: center;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .advantages-title {
+  font-weight: 700;
+  line-height: normal;
   color: #212121;
   text-align: center;
-  font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -400,46 +399,15 @@ a:focus {
   margin-bottom: 30px;
 }
 
+.advantages-list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 767px) {
   .advantages-list {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
-  }
-  .advantages-icon {
-    margin-top: 25px;
-    margin-left: 142px;
-  }
-  .advantages-box {
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  .advantages-list-item {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .advantages-title {
-    display: flex;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-    margin-bottom: 10px;
-  }
-  .advantages-text {
-    width: 354px;
-    color: #757575;
-    font-size: 14px;
-    font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -621,7 +589,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-mobile.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-mobile.jpg);
   padding-top: 60px;
   padding-bottom: 60px;
   margin-bottom: 60px;
@@ -636,7 +604,7 @@ a:focus {
 
 @media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-mobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-mobile@2x.jpg);
   }
 }
 .hero-title {
@@ -677,23 +645,10 @@ a:focus {
   .hero-section {
     max-width: 100%;
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/tablet.jpg);
     padding-top: 60px;
     padding-bottom: 60px;
     margin-bottom: 60px;
-  }
-  .hero-section .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .hero-title {
     color: #fff;
@@ -726,7 +681,7 @@ a:focus {
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-mobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-tab@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -780,6 +735,6 @@ a:focus {
 }
 @media (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero/hero-desktop@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-desktop@2x.jpg);
   }
 }/*# sourceMappingURL=main.css.map */

@@ -3,24 +3,30 @@
 //   flex-direction: column;
 // }
 
-.advantages-icon {
-  margin: 25px auto;
-}
+// .advantages-icon {
+//   margin: 25px auto;
+// }
 
 .advantages-box {
   display: flex;
-  width: 100%;
-  height: 120px;
+  align-items: center;
+  justify-content: center;
+  // width: 100%;
+  // height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
 
   margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .advantages-title {
+  font-weight: 700;
+  line-height: normal;
+
   color: #212121;
   text-align: center;
-  font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 
@@ -34,92 +40,102 @@
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 767px) {
+.advantages-list-item:not(:last-child){
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
   .advantages-list {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    // gap: 30px;
+    margin-left: -30px;
+    margin-top: -30px;
   }
 
-  .advantages-icon {
-    margin-top: 25px;
-    margin-left: 142px;
-  }
-
-  .advantages-box {
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-
+  
   .advantages-list-item {
-    flex-direction: row;
-    flex-wrap: wrap;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 2 * 30) / 2);
   }
 
-  .advantages-title {
-    display: flex;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
 
-    margin-bottom: 10px;
-  }
+  // .advantages-icon {
+  //   margin-top: 25px;
+  //   margin-left: 142px;
+  // }
 
-  .advantages-text {
-    width: 354px;
-    color: #757575;
-    font-size: 14px;
-    font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-    margin-bottom: 30px;
-  }
+  // .advantages-box {
+  //   height: 120px;
+  //   background: #f5f4fa;
+  //   border-radius: 4px;
+  //   margin-bottom: 30px;
+  // }
+
+
+  // .advantages-title {
+  //   display: flex;
+  //   font-weight: 700;
+  //   font-size: 14px;
+  //   line-height: 16px;
+  //   letter-spacing: 0.03em;
+  //   text-transform: uppercase;
+  //   color: #212121;
+
+  //   margin-bottom: 10px;
+  // }
+
+  // .advantages-text {
+  //   width: 354px;
+  //   color: #757575;
+  //   font-size: 14px;
+  //   font-family: Roboto;
+  //   line-height: 24px;
+  //   letter-spacing: 0.42px;
+  //   margin-bottom: 30px;
+  // }
 }
 
-@media screen and (min-width: 1200px) {
-  .advantages-list {
-    display: flex;
-    flex-wrap: nowrap;
-  }
+// @media screen and (min-width: 1200px) {
+//   .advantages-list {
+//     display: flex;
+//     flex-wrap: nowrap;
+//   }
 
-  .advantages-icon {
-    margin-top: 25px;
-  }
+//   .advantages-icon {
+//     margin-top: 25px;
+//   }
 
-  .advantages-box {
-    // width: 270px;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
+//   .advantages-box {
+//     // width: 270px;
+//     height: 120px;
+//     background: #f5f4fa;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//   }
 
-  .advantages-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
+//   .advantages-list-item:not(:last-child) {
+//     margin-right: 30px;
+//   }
 
-  .advantages-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-    margin-bottom: 10px;
-  }
+//   .advantages-title {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: #212121;
+//     margin-bottom: 10px;
+//   }
 
-  .advantages-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-  }
-}
+//   .advantages-text {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+//     color: #757575;
+//   }
+// }
