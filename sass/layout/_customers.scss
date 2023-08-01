@@ -1,61 +1,71 @@
 .customers-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.84px;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.customers-list-item {
+  flex-basis: calc((100% - 2 * 30px) / 2);
+}
+
+.customers-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition: border 250ms ease-in;
+}
+
+.customers-icon {
+  fill: #afb1b8;
+  transition: fill 250ms ease-in;
+}
+
+.customers-icon-link:hover .customers-icon,
+.customers-icon-link:focus .customers-icon {
+  fill: #2196f3;
+}
+
+.customers-icon-link:hover,
+.customers-icon-link:focus {
+  border: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 767px) {
+  .customers-list-item {
+    flex-basis: calc((100% - 3 * 30px) / 3);
   }
-  
+}
+
+@media screen and (min-width: 1200px) {
   .customers-title {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.84px;
-    color: #212121;
-    margin-bottom: 30px;
-  }
-  
-  .customers-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
   }
 
-  .customers-list-item{
-    flex-basis: calc((100% - 2 * 30px) / 2);
+  .customers-list-item {
+    flex-basis: calc((100% - 3 * 30px) / 3);
   }
-  
-  .customers-icon-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    width: 170px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-  }
-  
-  .customers-icon{
-    fill: #AFB1B8;
-    transition: fill 250ms ease-in;
-  }
-  
-  .customers-icon-link:hover .customers-icon,
-  .customers-icon-link:focus .customers-icon {
-    fill: #2196F3;
-  }
-  
-  .customers-icon-link:hover, 
-  .customers-icon-link:focus  {
-    border: 1px solid #2196F3;
-  }
-
-//   .customers-title {
-//     font-weight: 700;
-//     font-size: 36px;
-//     line-height: 42px;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     color: #212121;
-//     margin-bottom: 50px;
-//   }
+}

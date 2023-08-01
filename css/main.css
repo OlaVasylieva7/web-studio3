@@ -846,19 +846,36 @@ a:focus {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: border 250ms ease-in;
 }
 
 .customers-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms ease-in;
 }
 
 .customers-icon-link:hover .customers-icon,
 .customers-icon-link:focus .customers-icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .customers-icon-link:hover,
 .customers-icon-link:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 767px) {
+  .customers-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers-title {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  .customers-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 }/*# sourceMappingURL=main.css.map */
