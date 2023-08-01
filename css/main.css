@@ -876,6 +876,6 @@ a:focus {
     margin-bottom: 50px;
   }
   .customers-list-item {
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: auto;
   }
 }/*# sourceMappingURL=main.css.map */
