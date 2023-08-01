@@ -25,7 +25,6 @@ header {
 }
 
 .container {
-  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -410,9 +409,12 @@ a:focus {
     gap: 30px;
   }
   .advantages-list-item {
-    margin-left: 30px;
-    margin-top: 30px;
     flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .advantages-list-item {
+    flex-basis: calc((100% - 120px) / 4);
   }
 }
 .logo {
@@ -708,4 +710,152 @@ a:focus {
   .hero-section {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-desktop@2x.jpg);
   }
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.84px;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-image {
+  margin-bottom: 30px;
+}
+
+.card-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  color: #757575;
+  margin-bottom: 16px;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.team-list-icon {
+  fill: #afb1b8;
+  transition: fill 250ms ease-in;
+}
+
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: background-color 250ms ease-in;
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: #2196f3;
+}
+
+.icons-list-item + .icons-list-item {
+  margin-left: 10px;
+}
+
+.social-icon-link:hover .team-list-icon,
+.social-icon-link:focus .team-list-icon {
+  fill: #ffffff;
+}
+
+@media screen and (min-width: 767px) {
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team-list-item {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-list-item {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+  .team-list-item .team-title {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+}
+.customers-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+}
+
+.customers-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-icon {
+  fill: #AFB1B8;
+}
+
+.customers-icon-link:hover .customers-icon,
+.customers-icon-link:focus .customers-icon {
+  fill: #2196F3;
+}
+
+.customers-icon-link:hover,
+.customers-icon-link:focus {
+  border: 1px solid #2196F3;
 }/*# sourceMappingURL=main.css.map */
