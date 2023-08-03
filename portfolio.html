@@ -274,7 +274,34 @@
 
             <div class="details-card">
               <div class="card-header">
-                <img
+                <picture>
+                  <source
+                    srcset="
+                    ../img/button-cards/headphones/headphones-desktop.jpg 1px,
+                    ../img/button-cards/headphones/headphones-desktop@2x.jpg 2px
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                    ../img/button-cards/headphones/headphones-tablet.jpg 1px,
+                    ../img/button-cards/headphones/headphones-tablet@2x.jpg 2px
+                    "
+                    media="(min-width: 768px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                    ../img/button-cards/headphones/headphones-mobile.jpg 1px,
+                    ../img/button-cards/headphones/headphones-mobile@2x.jpg 2px
+                    "
+                    media="(max-width: 767px)"
+                    type="image/jpg"
+                  />
+                  <img src="#" alt="boxes" />
+                </picture>
+                <!-- <img
                   srcset="
                     ./img/button-cards/boxes.jpg    1x,
                     ./img/button-cards/boxes@2x.jpg 2x
@@ -282,7 +309,7 @@
                   src="./img/button-cards/boxes.jpg"
                   alt="boxes"
                   class="card-header-img"
-                />
+                /> -->
               </div>
               <div class="card-footer">
                 <p class="card-footer-title">Проєкт Boxes</p>
@@ -365,6 +392,15 @@
         </section>
       </div>
     </main>
+
+
+
+
+
+
+
+
+
 
     <!-- footer -->
     <footer class="footer">
