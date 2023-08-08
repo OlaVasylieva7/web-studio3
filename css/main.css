@@ -881,12 +881,14 @@ a:focus {
 }
 .buttons-section {
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .buttons-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: space-between;
 }
 
 .buttons-name:hover {
@@ -910,6 +912,22 @@ a:focus {
   color: #212121;
 }
 
+@media screen and (min-width: 768px) {
+  .buttons-section {
+    margin-top: 66px;
+    margin-bottom: 60px;
+  }
+  .buttons-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons-items:not(:last-child) {
+    margin-right: 8px;
+  }
+}
 .details-card-item {
   transition: box-shadow 250ms ease-in;
 }
