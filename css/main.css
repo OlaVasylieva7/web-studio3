@@ -1213,8 +1213,9 @@ a:focus {
   .footer-input {
     margin-bottom: 0;
     margin-right: 12px;
+    width: 358px;
   }
-  .footer-social-list {
-    margin-bottom: 0;
-  }
+}
+.footer-social-list {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -3,11 +3,6 @@
   text-align: center;
 }
 
-//   .footer-thumb {
-//     display: flex;
-//     justify-content: space-between;
-//   }
-
 .studio {
   color: white;
 }
@@ -66,12 +61,6 @@
 .footer-icon {
   fill: #ffffff;
 }
-
-// .footer-form {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
 
 .footer-input {
   display: block;
@@ -162,9 +151,10 @@
   .footer-input {
     margin-bottom: 0;
     margin-right: 12px;
+    width: 358px;
   }
+}
 
-  .footer-social-list {
-    margin-bottom: 0;
-  }
+.footer-social-list {
+  margin-bottom: 0;
 }
