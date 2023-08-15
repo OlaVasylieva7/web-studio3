@@ -82,7 +82,7 @@
 
 // tablet
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .hero-section {
     max-width: 100%;
     height: 400px;
@@ -133,9 +133,9 @@
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (max-width: 767px),
-  (min-resolution: 192dpi) and (max-width: 767px),
-  (min-resolution: 2dppx) and (max-width: 767px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-section {
     background-image: linear-gradient(
         to right,
