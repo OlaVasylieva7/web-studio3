@@ -51,6 +51,7 @@
   .nav-list-item {
     color: #212121;
     font-weight: 500;
+    font-size: 14px;
   }
 
   .nav-list-item:not(:last-child) {
@@ -102,14 +103,17 @@
   .header .container {
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 25px;
     max-width: 1400px;
   }
 
   .nav-list-link {
     position: relative;
     padding-bottom: 28px;
+  }
+
+  
+  .nav-list-item {
+    font-size: 14px;
   }
 
   .nav-list-item:not(:last-child) {
@@ -119,6 +123,7 @@
   .nav-list-item:hover {
     color: #2196f3;
   }
+
 
   .list-contact {
     display: flex;
@@ -133,6 +138,7 @@
   .list-contact-item {
     color: #757575;
     fill: #757575;
+    font-size: 14px;
   }
 
   .list-contact-item a {
