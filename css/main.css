@@ -990,10 +990,6 @@ a:focus {
   cursor: pointer;
 }
 
-.details-card-item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .card-header {
   overflow: hidden;
   position: relative;
