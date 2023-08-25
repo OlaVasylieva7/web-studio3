@@ -1,3 +1,8 @@
+.details-cards {
+  gap: 30px;
+}
+
+
 .details-card-item {
   transition: box-shadow 250ms ease-in;
 }
@@ -75,7 +80,7 @@ opacity: 1;
     .details-cards {
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+
     }
 
     .details-card-item {

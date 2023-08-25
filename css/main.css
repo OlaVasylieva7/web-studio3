@@ -980,6 +980,10 @@ a:focus {
     margin-bottom: 50px;
   }
 }
+.details-cards {
+  gap: 30px;
+}
+
 .details-card-item {
   transition: box-shadow 250ms ease-in;
 }
@@ -1053,7 +1057,6 @@ a:focus {
   .details-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
   }
   .details-card-item {
     flex-basis: calc((100% - 60px) / 2);
