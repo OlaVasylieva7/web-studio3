@@ -115,10 +115,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-title {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
   .footer-tablet {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .footer-input {
@@ -131,6 +136,11 @@
 @media screen and (min-width: 1200px) {
   .footer {
     text-align: unset;
+  }
+
+  .footer-title {
+    margin-top: 0;
+    padding-top: 10px;
   }
 
   .footer-thumb {
@@ -160,3 +170,4 @@
 .footer-social-list {
   margin-bottom: 0;
 }
+

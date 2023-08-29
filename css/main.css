@@ -981,15 +981,13 @@ a:focus {
   }
 }
 .details-cards {
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .details-card-item {
   transition: box-shadow 250ms ease-in;
-}
-
-.details-card-item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .details-card-item:hover,
@@ -1027,13 +1025,13 @@ a:focus {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.54px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: opacity 250ms ease-in;
 }
 
 .card-footer {
   padding: 20px 24px;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
 }
 
 .card-footer-title {
@@ -1057,6 +1055,7 @@ a:focus {
   .details-cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
   .details-card-item {
     flex-basis: calc((100% - 60px) / 2);
@@ -1189,10 +1188,14 @@ a:focus {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-title {
+    margin-top: 0;
+    padding-top: 10px;
+  }
   .footer-tablet {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .footer-input {
     width: 450px;
@@ -1203,6 +1206,10 @@ a:focus {
 @media screen and (min-width: 1200px) {
   .footer {
     text-align: unset;
+  }
+  .footer-title {
+    margin-top: 0;
+    padding-top: 10px;
   }
   .footer-thumb {
     display: flex;
